@@ -28,6 +28,6 @@ test('Test checkETH with valid address', () => {
 test('Test checkETH with invalid character', () => {
   expect(checkETH("0x27b1fdb04752bbc536007a920d24acb04zx61c26")).toEqual(false); // invalid character
 });
-test('Test checkETH with invalid character', () => {
-  expect(checkETH("0x27b1fdb04752bbc536007a920d24acb04zx61c2623")).toEqual(false); // more than 40 symbols invalid address
+test('Test checkETH with many characters', () => {
+  expect(checkETH("0x27b1fdb04752bbc536007a920d24acb04zx61c2623")).toEqual(false); // more than 40 symbols
 });
