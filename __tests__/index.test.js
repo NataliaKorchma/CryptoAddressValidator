@@ -14,6 +14,9 @@ test('Test checkBTC with bad digest', () => {
 test('Test checkBTC with invalid character', () => {
   expect(checkBTC("1AGNa15ZQXAZUgFiqJ2i7Z2DPU2J6hW62I")).toEqual(false); // invalid character
 });
+test('Test checkBTC with insufficient number of characters', () => {
+  expect(checkBTC("i55j")).toEqual(false); // insufficient number of characters
+});
 
 //check ETH address
 test('Test checkETH with valid address', () => {
