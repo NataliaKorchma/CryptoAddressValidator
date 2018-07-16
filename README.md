@@ -1,5 +1,15 @@
-# crypto-address-checker
-This module takes a `bitcoin` address as argument, and checks whether or not this address is valid.
+# CryptoAddressValidator
+This module takes a `bitcoin` or `ethereum` address as argument, and checks whether or not this address is valid.
+
+## Use
+
+```
+import CryptoAddressValidator from 'crypto_address_validator'
+
+CryptoAddressValidator.validate("1Q1pE5vPGEEMqRcVRMbtBK842Y6Pzo6nK9", "btc");
+CryptoAddressValidator.validate("0x52908400098527886E0F7030069857D2E4169EE7", "eth")
+
+```
 
 ## Included
 

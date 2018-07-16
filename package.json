@@ -1,8 +1,8 @@
 {
-  "name": "BTC-address-checker",
+  "name": "CryptoAddressValidator",
   "version": "0.0.1",
-  "description": "Simple lib to check BTC address",
-  "main": "./dist/index.js",
+  "description": "Simple lib to validate BTC and ETH address",
+  "main": "./dist/crypto_address_validator.js",
   "scripts": {
     "build": "./node_modules/.bin/babel -d dist src/",
     "test": "jest",

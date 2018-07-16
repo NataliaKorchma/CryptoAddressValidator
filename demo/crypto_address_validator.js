@@ -1,7 +1,7 @@
 import checkBTC from './check_btc'
 import checkETH from './check_eth'
 
-class CryptoAddress {
+class CryptoAddressValidator {
   static validate(address, type) {
     let isValid = false;
 
@@ -21,4 +21,4 @@ class CryptoAddress {
     return isValid;
   }
 }
-export default CryptoAddress;
+export default CryptoAddressValidator;
