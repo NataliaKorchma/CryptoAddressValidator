@@ -19,7 +19,6 @@ CryptoAddressValidator.validate("0x52908400098527886E0F7030069857D2E4169EE7", "e
 - [Jest](https://facebook.github.io/jest/) - Tests made easy and includes coverage report
 - [Coveralls](https://coveralls.io/) - Ensure that all your new code is fully covered, and see coverage trends emerge.
 - [Travis](https://travis-ci.org) - Deploy with Confidence.
-- Auto publish to npm on every build.
 
 ## Getting started
 

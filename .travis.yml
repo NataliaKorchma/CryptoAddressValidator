@@ -9,4 +9,3 @@ cache:
 
 script:
 - yarn run test
-- yarn run build
