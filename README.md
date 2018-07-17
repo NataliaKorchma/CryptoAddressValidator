@@ -1,4 +1,6 @@
 # CryptoAddressValidator
+[![Build Status](https://travis-ci.org/NataliaPavliy/CryptoAddressValidator.svg?branch=master)](https://travis-ci.org/NataliaPavliy/CryptoAddressValidator)
+
 This module takes a `bitcoin` or `ethereum` address as argument, and checks whether or not this address is valid.
 
 ## Use
