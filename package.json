@@ -33,6 +33,7 @@
     "jest-cli": "^20.0.4"
   },
   "devDependencies": {
+    "babel-plugin-transform-es2015-modules-amd": "^6.24.1",
     "jest": "^20.0.4"
   },
   "jest": {
