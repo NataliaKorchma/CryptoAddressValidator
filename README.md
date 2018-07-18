@@ -33,3 +33,9 @@ This boilerplate uses [Facebook Jest](https://facebook.github.io/jest/).
 ```
 yarn test
 ```
+
+## For Demo
+
+```
+yarn start 
+```

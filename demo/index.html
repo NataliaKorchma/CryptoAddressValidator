@@ -1,20 +1,38 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Demo crypto address</title>
-  <script src="../dist/demo.js"></script>
-</head>
-<body>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"
+        integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
 
-<div>
-<input type="text" id="btc_address">
-  <button id="btc_button">Check BTC address</button>
+  <title>Demo crypto address</title>
+</head>
+<body class="d-flex flex-column w-100 align-items-center pt-5 pb-5">
+
+<div class="flex-column w-100">
+  <h1 class=" mt-5 mb-5 text-center">Demo crypto address</h1>
+
+  <div class="container">
+    <div class="row align-items-center justify-content-center">
+      <form class="mt-5">
+        <div class="mb-5 w-100 d-inline-flex">
+          <input type="text" id="btc_address" class="form-control" value="1AGNa15ZQXAZUgFiqJ2i7Z2DPU2J6hW62i">
+          <button id="btc_button" class="btn btn-lg btn-outline-primary btn-block col-md-4">Check BTC address</button>
+        </div>
+
+        <div class="mb-5 w-100 d-inline-flex">
+          <input type="text" id="eth_address" class="form-control" value="0x5aAeb6053F3E94C9b9A09f33669435E7Ef1BeAed">
+          <button id="eth_button" class="btn btn-lg btn-outline-primary btn-block col-md-4">Check ETH address</button>
+        </div>
+      </form>
+    </div>
+  </div>
 </div>
 
 
+<script src="demo.js" type="text/javascript"></script>
 </body>
 </html>

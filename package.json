@@ -4,10 +4,10 @@
   "description": "Simple lib to validate BTC and ETH address",
   "main": "./dist/crypto_address_validator.js",
   "scripts": {
-    "build": "./node_modules/.bin/babel -d dist src/",
+    "build": "gulp build",
     "test": "jest",
     "test:coverage": "jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
-    "prepublish": "npm run test && npm run build"
+    "start": "gulp build && cp build/demo.js demo/ && http-server demo"
   },
   "repository": {
     "type": "git",
@@ -33,7 +33,18 @@
     "jest-cli": "^20.0.4"
   },
   "devDependencies": {
-    "jest": "^20.0.4"
+    "babel-core": "^6.26.3",
+    "babelify": "^8.0.0",
+    "browserify": "^16.2.2",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "jest": "^20.0.4",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.0",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-command": "^0.4.1"
   },
   "jest": {
     "collectCoverageFrom": [
