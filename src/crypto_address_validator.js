@@ -21,4 +21,9 @@ class CryptoAddressValidator {
     return isValid;
   }
 }
+
+if (typeof window !== 'undefined') {
+  window.CryptoAddressValidator = CryptoAddressValidator;
+}
+
 export default CryptoAddressValidator;
